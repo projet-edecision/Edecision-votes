@@ -4,7 +4,7 @@ import java.util.UUID;
 
 public class voteNotFoundException extends RuntimeException {
     voteNotFoundException(UUID id) {
-        super("Could not find employee " + id.toString());
+        super("Could not find vote " + id.toString());
     }
 
 }
